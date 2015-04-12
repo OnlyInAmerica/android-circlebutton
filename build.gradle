@@ -15,10 +15,6 @@ ext {
     buildToolsVersion = "19.1.0"
 }
 
-def isReleaseBuild() {
-    return version.contains("SNAPSHOT") == false
-}
-
 allprojects {
     version = VERSION_NAME
     group = GROUP
